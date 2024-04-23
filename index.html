@@ -59,6 +59,32 @@
         </div>
       </div>
     </header>
+    <main>
+      <section class="content">
+        <div class="content__container">
+          <h1 class="content__title">Your Secret Key Generator Spot</h1>
+          <button
+            type="button"
+            onclick="setSecretKey()"
+            class="content__button"
+          >
+            Generate your secret key
+          </button>
+          <div class="input__container">
+            <div id="result" name="result"></div>
+            <i
+              class="fa-solid fa-copy"
+              name="copy-result"
+              onclick="copySecretKey()"
+            ></i>
+          </div>
+          <div class="copied-message__container" id="copied-message__container">
+            <span class="copied-message">Your key has been copied!</span>
+          </div>
+        </div>
+      </section>
+    </main>
     
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

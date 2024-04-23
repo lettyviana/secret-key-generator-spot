@@ -1,0 +1,93 @@
+.content {
+  display: flex;
+  height: calc(100vh - 350px);
+  justify-content: center;
+  width: 100%;
+}
+
+.content__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  max-width: 565px;
+  width: 100%;
+}
+
+.content__title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.input__container {
+  align-items: center;
+  border: 2px solid var(--primary-color-1);
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.input__container i {
+  color: var(--primary-color-1-dark);
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.content__button {
+  background-color: var(--primary-color-1);
+  border: 3px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: all 0.3s;
+  width: 60%;
+}
+
+.content__button:hover {
+  background-color: transparent;
+  border: 3px solid var(--primary-color-1);
+}
+
+.input__container div {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  height: 30px;
+  width: 490px;
+}
+
+.copied-message__container {
+  visibility: hidden;
+}
+
+.copied-message__container.show {
+  background-color: var(--primary-color-1-dark);
+  border-radius: 10px;
+  visibility: visible;
+  padding: 7px 30px;
+}
+
+.copied-message {
+  animation: blink 1s linear infinite;
+  color: var(--light-gray);
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
