@@ -1,0 +1,15 @@
+.footer {
+  bottom: 15px;
+  position: fixed;
+  width: 70%;
+}
+
+.footer__text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.footer__socials-link {
+  color: var(--primary-color-1-dark);
+  text-decoration: underline;
+}
