@@ -14,7 +14,7 @@
   text-decoration: underline;
 }
 
-@media screen and (min-device-width: 992px) {
+@media screen and (min-device-width: 702px) {
   .footer {
     bottom: 15px;
     width: 70%;
