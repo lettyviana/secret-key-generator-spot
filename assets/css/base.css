@@ -36,6 +36,11 @@ i {
 
 body {
   background-color: var(--primary-color-3);
-  height: 100vh;
-  padding: 0 15%;
+}
+
+@media screen and (min-device-width: 992px) {
+  body {
+    height: 100vh;
+    padding: 0 15%;
+  }
 }
