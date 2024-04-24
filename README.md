@@ -43,8 +43,8 @@ Welcome to Secret Key Generator Spot — a comprehensive online tool built using
     <img src="./assets/img/readme/home-desktop.png" alt="Home - desktop" width="900px"/><br />
     <img src="./assets/img/readme/generated-key-and-copy-message-desktop.png" alt="Page with generated key and message when copied - desktop" width="900px" /><br />
     <div>
-        <img src="./assets/img/readme/home-tablet.png" alt="Home - tablet" width="200px" />
-        <img src="./assets/img/readme/generated-key-and-copy-message-tablet.png" alt="Page with generated key and message when copied - tablet" width="200px" />
+        <img src="./assets/img/readme/home-tablet.png" alt="Home - tablet" width="300px" />
+        <img src="./assets/img/readme/generated-key-and-copy-message-tablet.png" alt="Page with generated key and message when copied - tablet" width="300px" />
     </div>
     <img src="./assets/img/readme/generated-key-and-copy-message-mobile.png" alt="Home - mobile" width="130px" />
     <img src="./assets/img/readme/generated-key-and-copy-message-mobile.png" alt="Page with generated key and message when copied - mobile" width="130px" />    
